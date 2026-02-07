@@ -74,7 +74,7 @@ void Grille::choixJoueurO(char grille[3][3])
 	if (cell.CheckCell(grille, ligne, colonne) == false)
 	{
 		system("cls");
-		std::cout << "Case deja occupé veuillez en selectionner une autre\n";
+		std::cout << "Case deja occupe veuillez en selectionner une autre\n";
 		choixJoueurO(grille);
 	}
 	grille[ligne][colonne] = joueurO;
