@@ -39,7 +39,7 @@ void Grille::choixJoueurX(char grille[3][3])
 	std::cin >> colonne;
 	while (colonne > 2 || colonne < 0)
 	{
-		std::cout << " colonne non valide veuillez selectionner un chiffre entre 0 et 2: ";
+		std::cout << "colonne non valide veuillez selectionner un chiffre entre 0 et 2: ";
 		std::cin >> colonne;
 	}
 	if (cell.CheckCell(grille, ligne, colonne) == false)

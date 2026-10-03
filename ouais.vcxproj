@@ -123,15 +123,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Cell.cpp" />
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="Grille.cpp" />
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="src\Cell.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\Grille.cpp" />
+    <ClCompile Include="src\Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Cell.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="Grille.h" />
+    <ClInclude Include="src\Cell.h" />
+    <ClInclude Include="src\Game.h" />
+    <ClInclude Include="src\Grille.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

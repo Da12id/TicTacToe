@@ -15,7 +15,7 @@ char Cell::CheckVictory(char grille[3][3])
 				if (grille[ligne][0] == grille[ligne][2])
 				{
 					char gagnant = grille[ligne][0];
-					std::cout << "Le joueur " << gagnant << " a gagne";
+					std::cout << "Le joueur " << gagnant << " a gagne\n"<< grille[ligne][ligne];
 					return true;
 				}
 	}
@@ -28,7 +28,7 @@ char Cell::CheckVictory(char grille[3][3])
 				if (grille[0][colonne] == grille[2][colonne])
 				{
 					char gagnant = grille[0][colonne];
-					std::cout << "Le joueur " << gagnant << " a gagne";
+					std::cout << "Le joueur " << gagnant << " a gagne\n" << grille[colonne][colonne];
 					return true;
 				}
 	}
